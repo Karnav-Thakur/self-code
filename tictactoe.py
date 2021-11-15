@@ -4,7 +4,7 @@ async def tictactoe(self,ctx):
   board = [["⬜","⬜","⬜"],["⬜","⬜","⬜"],["⬜","⬜","⬜"]]
   choices = ["a1","a2","a3","b1","b2","b3","c1","c2","c3"]
   s = ""
-  turn = 1#random.randint(1,2)
+  turn = random.randint(1,2)
   for row in board:
       s += "".join(row)+ "\n"
 
