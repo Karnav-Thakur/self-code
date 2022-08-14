@@ -17,3 +17,5 @@ class ThisPersonDoesNotExist:
         lins = f'https://this-person-does-not-exist.com/img/avatar-{link}'
         await session.close()            
         return lins 
+
+# Use this code to generate images from "https://this-person-does-not-exist.com/en", very interesting website in my opinion
